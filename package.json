@@ -1,0 +1,57 @@
+{
+    "author": "jake.varness@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "Curl",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "Curl",
+        "enableMultiJS": true,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu",
+                    "menuIcon": true,
+                    "name": "MENU_PIC",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "png"
+                },
+                {
+                    "characterRegex": "[0-9\\*+\\-]",
+                    "file": "fonts/Monoton",
+                    "name": "FONT_MONOTON_30",
+                    "targetPlatforms": null,
+                    "trackingAdjust": 1,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9\\*+\\-]",
+                    "file": "fonts/Monoton",
+                    "name": "FONT_MONOTON_48",
+                    "targetPlatforms": null,
+                    "trackingAdjust": 5,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "2b5943cb-e5c0-46ab-9365-57ec08897ec2",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
